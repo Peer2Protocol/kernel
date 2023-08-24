@@ -111,6 +111,7 @@ func TestBasicWithLibrary(t *testing.T) {
 
 		// Uncomment and change directory to use cached build
 		// Path: "/tmp/QmP6qBNyoLeMLiwk8uYZ8xoT4CnDspYntcY4oCkpVG1byt-556050950/artifact.zwasm",
+		// TODO Add a new handler for switching between cached and uncached path builds
 	})
 	if err != nil {
 		t.Error(err)
