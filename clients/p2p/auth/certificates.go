@@ -17,6 +17,8 @@ func (c *Client) InjectStaticCertificate(domain string, data []byte) error {
 	_, err := c.client.Send("acme", command.Body{"action": "set-static", "fqdn": domain, "certificate": data})
 	if err != nil {
 		return fmt.Errorf("failed sending inject certificate with %v", err)
+			// TODO: Add validation for the input parameters, such as domain and data
+
 	}
 
 	return nil
