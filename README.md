@@ -14,7 +14,6 @@
  - Distributed KV Database
  - Pub-Sub Messaging/Events
 
-For detailed documentation, visit [https://peer2.how](https://peer2.how).
 
 ## Getting started
 
