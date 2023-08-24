@@ -6,4 +6,5 @@ import (
 )
 
 var DefaultAllowedMethods = basicHttp.DefaultAllowedMethods
+
 var logger = logging.Logger("http.auto")
